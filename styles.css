@@ -1,0 +1,108 @@
+@import url('https://fonts.google.com/specimen/Poppins & https://fonts.google.com/specimen/Open+Sans');
+@media screen and (max-width: 720px), (max-height: 1280px) and (max-width)
+{}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: rgba(103,75,175,255);
+}
+
+h1
+{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: white;
+}
+
+p
+{
+    font-family: 'Open Sans';
+    color: white;
+}
+
+.group1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.group2
+{
+    margin-right: 100px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.group3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.background
+{
+    background-image: url(images/background.svg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.logo
+{
+    margin: 20px;
+    margin-left: 50px;
+    right: 0;
+    top: 0;
+}
+
+.logo img
+{
+    height: 100px;
+    width: 200px;
+}
+
+.windows img
+{
+    height: 100%;
+    width: 80%;
+}
+
+.register
+{
+    background-color: white;
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#register
+{
+    font-family: 'Open Sans';
+    color: rgba(103,75,175,255);
+}
+
+.socials img
+{
+    margin: 10px;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 100%;
+    color: white;
+}
